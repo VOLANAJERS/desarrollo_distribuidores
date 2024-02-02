@@ -6,7 +6,7 @@ with st.sidebar:
     
     page = st.selectbox(
     'Selecciona la página',
-    ('Desarrollo de distribuidores')
+    ('Desarrollo de distribuidores',))
 
     
 if page == 'Desarrollo de distribuidores':
