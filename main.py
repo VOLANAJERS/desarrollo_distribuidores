@@ -122,7 +122,7 @@ def costo_seguro(X, d):
     return ingreso_seguro * d
 
 with st.sidebar:
-    
+    st.image("./logo_volana.png")
     page = st.selectbox(
     'Selecciona la página',
     ('Desarrollo de distribuidores',))
@@ -131,6 +131,7 @@ with st.sidebar:
 if page == 'Desarrollo de distribuidores':
     
     st.title("Desarrollo de distribuidores")
+    
     col1, col2 = st.columns([1,1])
     duracion_credito_semanas = 16
     porc_comision = 0.145
