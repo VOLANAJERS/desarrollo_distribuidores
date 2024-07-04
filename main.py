@@ -78,7 +78,7 @@ def getGanancias(monto_credito_distribuidor, tasa_credito_distribuidor, monto_me
     
     
     
-    txt_ganancias = f"A partir de {np.argmax(np.array(ganancia_iterar)>0)} créditos colocados, las ganancias que obtienes de tu valera, servirían para pagar los intereses de tu crédito productivo."
+    txt_ganancias = f"A partir de {np.argmax(np.array(ganancia_iterar)>0)} créditos colocados, las ganancias que obtienes de tu valera, \nservirían para pagar los intereses de tu crédito productivo."
     if sum(np.array(ganancia_iterar)>0) == 0:
         txt_ganancias = "Incrementa el monto promedio de tus colocaciones ¡y verás como comienzas a ganar!"
 
